@@ -10,7 +10,7 @@ local Section = Tab:NewSection("the script is made by ThawlnX8 and noH(21k_65I)"
 --add update local Section = Tab:NewSection("[+]")
 --update 1.0
 local Section = Tab:NewSection("v1.0 DarkTheme")
-local Section = Tab:NewSection("[+]")
+local Section = Tab:NewSection("[+]fly script")
 local Section = Tab:NewSection("[+]blox fruit script")
 local Section = Tab:NewSection("[+]Brookhaven 🏡RP")
 local Section = Tab:NewSection("[+]Prison Life")
