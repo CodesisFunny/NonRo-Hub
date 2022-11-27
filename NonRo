@@ -16,6 +16,7 @@ local Section = Tab:NewSection("[+]Brookhaven 🏡RP")
 local Section = Tab:NewSection("[+]Prison Life")
 --update 1.1
 local Section = Tab:NewSection("v1.1 DarkTheme")
+local Section = Tab:NewSection("[/]fix ui bug")
 local Section = Tab:NewSection("[+]Doors script")
 
 
