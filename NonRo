@@ -7,16 +7,6 @@ local Window = Library.CreateLib("NonRo Hub v1.1", "DarkTheme")
 local Tab = Window:NewTab("Main")
 --main tab
 local Section = Tab:NewSection("the script is made by ThawlnX8 and noH(21k_65I)")
---update
-local Section = Tab:NewSection("update log
-v1.0
-[+]Add fly script
-[+]Add Blox Fruit Script
-[+]Add Brookhaven 🏡RP Script
-[+]Add Prison Life Script
-v1.1
-[+]Add Doors Script
-[/]fix gui bug")
 
 
 --fly script
@@ -59,16 +49,6 @@ local Section = Tab:NewSection("Load Script Prison Life")
 --load script
 Section:NewButton("Load Script Pendulum", "Best script Prison Life", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
-end)
-
-
---Doors
-local Tab = Window:NewTab("Doors")
---script name
-local Section = Tab:NewSection("Load Script Doors")
---load script
-Section:NewButton("Load Script Vynixius", "Best script Doors", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua%22))()
 end)
 
 
