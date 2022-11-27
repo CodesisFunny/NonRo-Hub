@@ -74,4 +74,4 @@ end)
 
 
 local Tab = Window:NewTab("Soon!")
-local Section = Tab:NewSection("Soon!")
+local Section = Tab:NewSection("We Will Update Soon!")
