@@ -6,7 +6,8 @@ local Window = Library.CreateLib("NonRo Hub v1.1", "DarkTheme")
 --main
 local Tab = Window:NewTab("Main")
 --main tab
-local Section = Tab:NewSection("Scripts will not update if 10 scripts complete but add new version")
+local Section = Tab:NewSection("Scripts will not update if 10 scripts complete")
+local Section = Tab:NewSection("but add new version")
 local Section = Tab:NewSection("the script is made by ThawlnX8 and noH(21k_65I)")
 --add update local Section = Tab:NewSection("[+]")
 --update 1.0
