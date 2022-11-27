@@ -7,6 +7,8 @@ local Window = Library.CreateLib("NonRo Hub v1.1", "DarkTheme")
 local Tab = Window:NewTab("Main")
 --main tab
 local Section = Tab:NewSection("the script is made by ThawlnX8 and noH(21k_65I)")
+--update
+Section:UpdateSection("idk update")
 
 
 --fly script
