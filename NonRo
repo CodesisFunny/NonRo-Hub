@@ -11,13 +11,13 @@ local Section = Tab:NewSection("Scripts will not update if 10 scripts complete")
 local Section = Tab:NewSection("but add new version")
 --add update local Section = Tab:NewSection("[+]")
 --update 1.0
-local Section = Tab:NewSection("v1.0 DarkTheme")
+local Section = Tab:NewSection("version 1.0 DarkTheme")
 local Section = Tab:NewSection("[+]fly script")
 local Section = Tab:NewSection("[+]blox fruit script")
 local Section = Tab:NewSection("[+]Brookhaven 🏡RP")
 local Section = Tab:NewSection("[+]Prison Life")
 --update 1.1
-local Section = Tab:NewSection("v1.1 DarkTheme")
+local Section = Tab:NewSection("version 1.1 DarkTheme")
 local Section = Tab:NewSection("[/]fix ui bug")
 local Section = Tab:NewSection("[+]Doors script")
 
