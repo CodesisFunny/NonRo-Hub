@@ -1,6 +1,6 @@
 --web how to create ui https://xheptcofficial.gitbook.io/kavo-library/
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("NonRo Hub v1.1", "DarkTheme")
+local Window = Library.CreateLib("NonRo Hub v1.2", "DarkTheme")
 
 
 --main
@@ -13,13 +13,16 @@ local Section = Tab:NewSection("but add new version")
 --update 1.0
 local Section = Tab:NewSection("version 1.0 DarkTheme")
 local Section = Tab:NewSection("[+]fly script")
-local Section = Tab:NewSection("[+]blox fruit script")
+local Section = Tab:NewSection("[+]blox fruit script(ice hub - thunder Z)")
 local Section = Tab:NewSection("[+]Brookhaven 🏡RP")
 local Section = Tab:NewSection("[+]Prison Life")
 --update 1.1
 local Section = Tab:NewSection("version 1.1 DarkTheme")
 local Section = Tab:NewSection("[/]fix ui bug")
 local Section = Tab:NewSection("[+]Doors script")
+--update 1.2
+local Section = Tab:NewSection("version 1.2 DarkTheme")
+local Section = Tab:NewSection("[+]blox fruit script(one x hub)")
 
 
 --fly script
@@ -42,6 +45,9 @@ Section:NewButton("Load Script Thunder Z", "Best script Blox Fruit", function()
 end)
 Section:NewButton("Load Script Ice Hub", "farm money", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+Section:NewButton("Load Script One X Hub", "very fast attack and no key!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
 end)
 
 
