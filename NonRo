@@ -79,7 +79,7 @@ local Tab = Window:NewTab("Doors")
 --script name
 local Section = Tab:NewSection("Load Script Doors")
 --load script
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Load Script Vynixius", "Best script Doors", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
 end)
 
