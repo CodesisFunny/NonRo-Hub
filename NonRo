@@ -1,10 +1,10 @@
 --web how to create ui https://xheptcofficial.gitbook.io/kavo-library/
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("NonRo Hub v1.2", "DarkTheme")
+local Window = Library.CreateLib("NonRo Hub v1.3", "DarkTheme")
 
 
 --main
-local Tab = Window:NewTab("Main")
+local Tab = Window:NewTab("Main update")
 --main tab
 local Section = Tab:NewSection("the script is made by ThawlnX8 and noH(21k_65I)")
 local Section = Tab:NewSection("Scripts will not update if 10 scripts complete")
@@ -23,6 +23,10 @@ local Section = Tab:NewSection("[+]Doors script")
 --update 1.2
 local Section = Tab:NewSection("version 1.2 DarkTheme")
 local Section = Tab:NewSection("[+]blox fruit script(one x hub)")
+--update 1.3
+local Section = Tab:NewSection("version 1.3 DarkTheme")
+local Section = Tab:NewSection("[+]TP to Player")
+
 
 
 --Main Script
