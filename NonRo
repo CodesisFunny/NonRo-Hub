@@ -38,25 +38,30 @@ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\
 end)
 
 
+--tp to player
 local Tab = Window:NewTab("Player")
+--Select Player
 local Section = Tab:NewSection("Select Player!")
 Plr = {}
 for i,v in pairs(game:GetService("Players"):GetChildren()) do
     table.insert(Plr,v.Name) 
 end
+--Click To Select player
 local drop = Section:NewDropdown("Select Player!", "Click To Select", Plr, function(t)
    PlayerTP = t
 end)
+--Click To TP to Player
 Section:NewButton("Click To TP", "", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[PlayerTP].Character.HumanoidRootPart.CFrame
 end)
-Section:NewToggle("Auto Tp", "", function(t)
+--loop tp
+Section:NewToggle("Loop Tp", "", function(t)
 _G.TPPlayer = t
 while _G.TPPlayer do wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[PlayerTP].Character.HumanoidRootPart.CFrame
 end
 end)
-
+--Refresh Player
 Section:NewButton("Refresh Player","Refresh Player", function()
   drop:Refresh(Plr)
 end)
