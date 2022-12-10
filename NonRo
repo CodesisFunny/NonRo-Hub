@@ -49,9 +49,6 @@ end)
 Section:NewButton("Load Script One X Hub", "very fast attack and no key!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
 end)
-Section:NewButton("Load Script SHAREHACK", "...", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
-end)
 
 
 --Brookhaven 🏡RP
