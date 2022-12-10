@@ -6,9 +6,7 @@ local Window = Library.CreateLib("NonRo Hub v1.2", "DarkTheme")
 --Main
 local Tab = Windows:NewTab("Main")
 --Main script
-Section:NewSlider("Walk Speed", "what you speed", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
+
 
 
 --fly script
