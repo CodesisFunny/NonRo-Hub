@@ -3,10 +3,26 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("NonRo Hub v1.2", "DarkTheme")
 
 
---Main
-local Tab = Windows:NewTab("Main")
---Main script
-
+--main
+local Tab = Window:NewTab("Main")
+--main tab
+local Section = Tab:NewSection("the script is made by ThawlnX8 and noH(21k_65I)")
+local Section = Tab:NewSection("Scripts will not update if 10 scripts complete")
+local Section = Tab:NewSection("but add new version")
+--add update local Section = Tab:NewSection("[+]")
+--update 1.0
+local Section = Tab:NewSection("version 1.0 DarkTheme")
+local Section = Tab:NewSection("[+]fly script")
+local Section = Tab:NewSection("[+]blox fruit script(ice hub - thunder Z)")
+local Section = Tab:NewSection("[+]Brookhaven 🏡RP")
+local Section = Tab:NewSection("[+]Prison Life")
+--update 1.1
+local Section = Tab:NewSection("version 1.1 DarkTheme")
+local Section = Tab:NewSection("[/]fix ui bug")
+local Section = Tab:NewSection("[+]Doors script")
+--update 1.2
+local Section = Tab:NewSection("version 1.2 DarkTheme")
+local Section = Tab:NewSection("[+]blox fruit script(one x hub)")
 
 
 --fly script
@@ -32,6 +48,9 @@ Section:NewButton("Load Script Ice Hub", "farm money", function()
 end)
 Section:NewButton("Load Script One X Hub", "very fast attack and no key!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
+end)
+Section:NewButton("Load Script SHAREHACK", "...", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
 end)
 
 
@@ -60,31 +79,9 @@ local Tab = Window:NewTab("Doors")
 --script name
 local Section = Tab:NewSection("Load Script Doors")
 --load script
-Section:NewButton("Load Script Vynixius", "Best script Doors", function()
+Section:NewButton("ButtonText", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
 end)
-
-
---update log
-local Tab = Window:NewTab("update log")
---main tab
-local Section = Tab:NewSection("the script is made by ThawlnX8 and noH(21k_65I)")
-local Section = Tab:NewSection("Scripts will not update if 10 scripts complete")
-local Section = Tab:NewSection("but add new version")
---add update local Section = Tab:NewSection("[+]")
---update 1.0
-local Section = Tab:NewSection("version 1.0 DarkTheme")
-local Section = Tab:NewSection("[+]fly script")
-local Section = Tab:NewSection("[+]blox fruit script(ice hub - thunder Z)")
-local Section = Tab:NewSection("[+]Brookhaven 🏡RP")
-local Section = Tab:NewSection("[+]Prison Life")
---update 1.1
-local Section = Tab:NewSection("version 1.1 DarkTheme")
-local Section = Tab:NewSection("[/]fix ui bug")
-local Section = Tab:NewSection("[+]Doors script")
---update 1.2
-local Section = Tab:NewSection("version 1.2 DarkTheme")
-local Section = Tab:NewSection("[+]blox fruit script(one x hub)")
 
 
 local Tab = Window:NewTab("Soon!")
