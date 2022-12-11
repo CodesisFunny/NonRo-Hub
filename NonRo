@@ -105,9 +105,6 @@ local Section = Tab:NewSection("Load Script Prison Life")
 Section:NewButton("Load Script Septax", "Very Best script Prison Life", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
 end)
-Section:NewButton("Load Script Pendulum", "Best script Prison Life", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
-end)
 
 
 --Doors
